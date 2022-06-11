@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
+    justify-content: center;
+
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.social{
+    display: flex;
+    margin: 0;    
+}
+
+
+.list {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.link {
+    line-height: 0;
+    display: inline-block;
+    /* border: 1px solid rebeccapurple; */
+    padding: 12px;
+}
+
+.item:not(:last-child){
+    margin-right: 15px;
+}
+
+.icon1 {
+    width: 20px;
+    height: 20px;
+    fill: aqua;
+}
+
+.link:hover {
+    border: 2px solid rgb(30, 68, 238);
+    background-color: rgb(30, 68, 238);
+    border-radius: 50%;
+}
+
+.icon1:hover {
+    fill: white;
+}
